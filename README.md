@@ -3,10 +3,8 @@
 ## 📊 Project Overview
 
 This project presents an end-to-end Supply Chain Analytics solution using the DataCo Supply Chain dataset.
-
 The objective of this project is to analyze supply chain operations from multiple business perspectives, including revenue, profitability,
 delivery performance, customer behavior, product performance, and market performance.
-
 The project combines SQL Server and Power BI to transform raw supply chain data into meaningful business insights and interactive dashboards.
 
 ## 🎯 Business Objectives
@@ -34,3 +32,10 @@ DataCo-Supply-Chain-Analytics/
 ├── SUPPLY CHAIN DATA CO.sql
 ├── DATACO SUPPLY CHAIN DATASET.pdf
 └── README.md
+
+## 📂 Dataset
+The project uses the **DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS** dataset, obtained from Kaggle.
+The dataset contains supply-chain information covering orders, customers, products, sales, shipping,
+delivery performance, markets, regions, and customer segments.
+**Dataset Source:** [Kaggle – DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS]
+(https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
