@@ -24,9 +24,9 @@ It answers:How is the supply chain performing overall?
 
 Key Insights:
 54.82% of orders were late, making delivery performance the biggest operational concern.
-Europe generated ₹10.87M (29.56%), the highest market revenue.
-LATAM generated ₹10.28M (27.94%), making it the second-largest market.
-Fishing generated approximately ₹6.9M revenue, the highest displayed product-category revenue.
+Europe generated $10.87M (29.56%), the highest market revenue.
+LATAM generated $10.28M (27.94%), making it the second-largest market.
+Fishing generated approximately $6.9M revenue, the highest displayed product-category revenue.
 
 Business Action:
 The business should maintain its strong revenue performance while prioritizing delivery reliability and operational efficiency.
@@ -59,7 +59,7 @@ Home Office generated 17.91%.
 Consumer customers generated approximately ₹19M revenue.
 Europe contributed 29.56% of total revenue.
 LATAM contributed 27.94%.
-Caguas generated approximately ₹13.61M, significantly higher than the other displayed cities.
+Caguas generated approximately $13.61M, significantly higher than the other displayed cities.
 
 Business Action:
 Focus customer strategies on the Consumer segment, protect major markets such as Europe and LATAM, 
@@ -70,10 +70,10 @@ ROLE:This dashboard focuses on which products and categories actually generate p
 It answers:Which products are driving sales and profitability?
 
 Key Insights:
-Fishing generated approximately ₹0.76M profit, the highest displayed category.
-Cleats generated approximately ₹0.49M.
-Field & Stream generated approximately ₹6.9M revenue.
-Field & Stream also generated approximately ₹0.76M profit.
+Fishing generated approximately $0.76M profit, the highest displayed category.
+Cleats generated approximately $0.49M.
+Field & Stream generated approximately $6.9M revenue.
+Field & Stream also generated approximately $0.76M profit.
 USCA had the highest displayed market profit margin at 11.14%.
 Pacific Asia had the lowest displayed market margin at 10.37%.
 The difference between the highest and lowest displayed market margin was only 0.77 percentage points.
@@ -86,7 +86,7 @@ Prioritize high-profit products and categories, while monitoring revenue and mar
 After combining all four dashboards, the major findings are:
 💰 Strong Financial Performance
 The business generated approximately:
-₹36.78M Revenue → ₹3.97M Profit → 10.78% Profit Margin
+₹36.78M Revenue → $3.97M Profit → 10.78% Profit Margin
 
 🚚 Delivery Is the Major Problem
 54.82% of orders were late, while on-time delivery was only around 45%.
@@ -96,14 +96,14 @@ This is the clearest operational improvement opportunity.
 Europe and LATAM together contribute approximately 57.5% of total revenue.
 
 👥 Consumers Are the Largest Customer Group
-Consumers account for 51.89% of orders and approximately ₹19M revenue.
+Consumers account for 51.89% of orders and approximately $19M revenue.
 
 📦 A Few Products Drive Significant Value
-Field & Stream generated approximately ₹6.9M revenue and ₹0.76M profit.
+Field & Stream generated approximately $6.9M revenue and $0.76M profit.
 
 ⚠️ Geographic Concentration Needs Investigation
 
-Caguas generated approximately ₹13.61M, which is substantially higher than the other displayed cities.
+Caguas generated approximately $13.61M, which is substantially higher than the other displayed cities.
 This should be investigated before making strategic decisions.
 
 5. Business Recommendations
