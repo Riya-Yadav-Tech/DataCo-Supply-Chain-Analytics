@@ -1,118 +1,145 @@
-📊 DataCo Supply Chain Analytics — Project Analysis
-1. Project Overview
+# 📊 DataCo Supply Chain Analytics — Project Report
 
-This project analyzes the DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS dataset to understand the company's financial performance, delivery operations, customer behavior, market performance, and product profitability.
+## 1. Project Overview
 
-The analysis was performed using SQL Server and Power BI, with the final analysis presented through four focused dashboards.
+This project analyzes the **DataCo Smart Supply Chain for Big Data Analysis** dataset to understand the company's financial performance, delivery operations, customer behavior, market performance and product profitability.
 
-Dataset Source: Kaggle – DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS
+The analysis was done in **SQL Server** (data preparation and business queries) and **Power BI** (DAX measures and dashboards). The results are presented in **four focused dashboards**.
 
-2. What I Analyzed
-Business Area	What I Analyzed	
-💰 Financial Performance:	Revenue, profit, orders, profit margin	
-🚚 Delivery Performance:	Late orders, delivery %, delay, shipping modes
-🌍 Market Performance:	Revenue by market and region	
-👥 Customer Performance	:Customer segments, cities, revenue	
-📦 Product Performance:	Product/category revenue and profit	I
-📈 Trends:	Monthly revenue, profit and delivery trends	
+**Dataset source:** [Kaggle – DataCo Smart Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
 
-3. Dashboard Analysis
+> All currency values are in **US Dollars ($)**, as in the original dataset.
 
-Dashboard 1 — Supply Chain Executive Dashboard
-ROLE: This dashboard provides a high-level overview of the entire business.
-It answers:How is the supply chain performing overall?
+---
 
-Key Insights:
-54.82% of orders were late, making delivery performance the biggest operational concern.
-Europe generated $10.87M (29.56%), the highest market revenue.
-LATAM generated $10.28M (27.94%), making it the second-largest market.
-Fishing generated approximately $6.9M revenue, the highest displayed product-category revenue.
+## 2. What I Analyzed
 
-Business Action:
-The business should maintain its strong revenue performance while prioritizing delivery reliability and operational efficiency.
+| Business Area | What I Analyzed |
+|---|---|
+| 💰 Financial Performance | Revenue, profit, orders, profit margin |
+| 🚚 Delivery Performance | Late orders, late-delivery %, delays, shipping modes |
+| 🌍 Market Performance | Revenue by market and region |
+| 👥 Customer Performance | Customer segments, cities, revenue |
+| 📦 Product Performance | Product and category revenue and profit |
+| 📈 Trends | Monthly revenue, profit and delivery trends |
 
-Dashboard 2 — Delivery & Logistics Performance
-ROLE:This dashboard focuses specifically on where and how delivery problems are occurring.
-It answers:Which shipping methods and regions have the greatest delivery risk?
+---
 
-Key Insights:
-Standard Class had the highest number of late orders: 14.6K.
-Second Class and First Class had approximately 9.5K and 9.4K late orders respectively.
-Central Africa had the highest displayed late-delivery rate: 57.55%.
-East Africa followed at 56.77%.
-South Asia followed at 56.11%.
-Western Europe had the highest displayed number of late orders by region at 5.6K.
+## 3. Dashboard Analysis
 
-Business Action:
-Investigate high-risk regions, shipping processes and carrier performance to reduce late deliveries.
-Important: Standard Class has the highest number of late orders, but this does not automatically mean it has the worst rate.
-Order volume should also be considered.
+### Dashboard 1 — Supply Chain Executive Dashboard
 
-Dashboard 3 — Customer & Market Analysis
-ROLE:This dashboard explains who generates the revenue and where the revenue comes from.
-It answers:Which customers, markets and cities are most valuable?
+**Purpose:** A high-level overview of the whole business.
+**Question it answers:** *How is the supply chain performing overall?*
 
-Key Insights:
-Consumer customers generated 51.89% of orders.
-Corporate customers generated 30.20%.
-Home Office generated 17.91%.
-Consumer customers generated approximately ₹19M revenue.
-Europe contributed 29.56% of total revenue.
-LATAM contributed 27.94%.
-Caguas generated approximately $13.61M, significantly higher than the other displayed cities.
+**Key insights**
+- **54.82%** of orders were delivered late, making delivery performance the biggest operational concern.
+- **Europe** generated **$10.87M (29.56%)**, the highest revenue of any market.
+- **LATAM** generated **$10.28M (27.94%)**, the second-largest market.
+- **Fishing** was the top product category, with about **$6.9M** in revenue.
 
-Business Action:
-Focus customer strategies on the Consumer segment, protect major markets such as Europe and LATAM, 
-and investigate the unusually high revenue concentration in Caguas.
+**Business action:** Maintain strong revenue performance while making delivery reliability and operational efficiency the top priority.
 
-Dashboard 4 — Product & Profitability Analysis
-ROLE:This dashboard focuses on which products and categories actually generate profit, rather than just revenue.
-It answers:Which products are driving sales and profitability?
+---
 
-Key Insights:
-Fishing generated approximately $0.76M profit, the highest displayed category.
-Cleats generated approximately $0.49M.
-Field & Stream generated approximately $6.9M revenue.
-Field & Stream also generated approximately $0.76M profit.
-USCA had the highest displayed market profit margin at 11.14%.
-Pacific Asia had the lowest displayed market margin at 10.37%.
-The difference between the highest and lowest displayed market margin was only 0.77 percentage points.
+### Dashboard 2 — Delivery & Logistics Performance
 
-Business Action:
-Prioritize high-profit products and categories, while monitoring revenue and margin together rather than relying on sales alone.
+**Purpose:** Shows where and how delivery problems occur.
+**Question it answers:** *Which shipping modes and regions carry the highest delivery risk?*
 
-4. Overall Insights
+**Key insights**
 
-After combining all four dashboards, the major findings are:
-💰 Strong Financial Performance
-The business generated approximately:
-₹36.78M Revenue → $3.97M Profit → 10.78% Profit Margin
+| Shipping Mode | Late Orders |
+|---|---|
+| Standard Class | 14.6K |
+| Second Class | ~9.5K |
+| First Class | ~9.4K |
 
-🚚 Delivery Is the Major Problem
-54.82% of orders were late, while on-time delivery was only around 45%.
-This is the clearest operational improvement opportunity.
+| Region | Late-Delivery Rate |
+|---|---|
+| Central Africa | 57.55% |
+| East Africa | 56.77% |
+| South Asia | 56.11% |
 
-🌍 Revenue Is Concentrated
-Europe and LATAM together contribute approximately 57.5% of total revenue.
+- **Western Europe** had the highest **number** of late orders of any region (**5.6K**).
 
-👥 Consumers Are the Largest Customer Group
-Consumers account for 51.89% of orders and approximately $19M revenue.
+**Business action:** Investigate high-risk regions, shipping processes and carrier performance to reduce late deliveries.
 
-📦 A Few Products Drive Significant Value
-Field & Stream generated approximately $6.9M revenue and $0.76M profit.
+> ⚠️ **Note:** Standard Class has the most late orders, but it also handles the most orders. A high **count** does not automatically mean a high **rate**, so shipping modes should be compared using both late-order volume and late-delivery percentage.
 
-⚠️ Geographic Concentration Needs Investigation
+---
 
-Caguas generated approximately $13.61M, which is substantially higher than the other displayed cities.
-This should be investigated before making strategic decisions.
+### Dashboard 3 — Customer & Market Analysis
 
-5. Business Recommendations
+**Purpose:** Shows who generates revenue and where it comes from.
+**Question it answers:** *Which customers, markets and cities are most valuable?*
 
-Based on the analysis, the business should:
-Improve delivery reliability and reduce the 54.82% late-delivery rate.
-Investigate high-risk regions, particularly Central Africa, East Africa and South Asia.
-Evaluate shipping modes using both late-order volume and late-delivery percentage.
-Protect high-value markets, particularly Europe and LATAM.
-Focus on high-profit products and categories such as Fishing and Field & Stream.
-Strengthen Consumer-segment strategies, as Consumers represent the largest order share.
-Investigate the unusual Caguas revenue concentration to understand its business and data implications.
+**Key insights**
+
+| Customer Segment | Share of Orders |
+|---|---|
+| Consumer | 51.89% |
+| Corporate | 30.20% |
+| Home Office | 17.91% |
+
+- **Consumer** customers generated about **$19M** in revenue.
+- **Europe (29.56%)** and **LATAM (27.94%)** together contributed about **57.5%** of total revenue.
+- **Caguas** generated about **$13.61M**, far more than any other city.
+
+**Business action:** Focus customer strategy on the Consumer segment, protect the Europe and LATAM markets, and investigate the unusually high revenue concentration in Caguas.
+
+---
+
+### Dashboard 4 — Product & Profitability Analysis
+
+**Purpose:** Shows which products and categories actually generate **profit**, not just revenue.
+**Question it answers:** *Which products drive sales and profitability?*
+
+**Key insights**
+- **Fishing** was the most profitable category, with about **$0.76M** profit.
+- **Cleats** followed with about **$0.49M** profit.
+- **Field & Stream** was the top product, with about **$6.9M** revenue and **$0.76M** profit.
+
+| Market | Profit Margin |
+|---|---|
+| USCA (highest) | 11.14% |
+| Pacific Asia (lowest) | 10.37% |
+
+- The gap between the highest and lowest market margin was only **0.77 percentage points**, so margins are fairly even across markets.
+
+**Business action:** Prioritize high-profit products and categories, and track revenue and margin together instead of relying on sales alone.
+
+---
+
+## 4. Overall Insights
+
+| Area | Finding |
+|---|---|
+| 💰 Financial | **$36.78M** revenue → **$3.97M** profit → **10.78%** profit margin |
+| 🚚 Delivery | **54.82%** of orders were late; only about **45%** were not late. This is the clearest improvement opportunity. |
+| 🌍 Markets | Europe and LATAM together contribute about **57.5%** of revenue. |
+| 👥 Customers | Consumers account for **51.89%** of orders and about **$19M** revenue. |
+| 📦 Products | Field & Stream alone generated about **$6.9M** revenue and **$0.76M** profit. |
+| ⚠️ Geography | Caguas generated about **$13.61M**, much higher than other cities. This should be checked before making strategic decisions. |
+
+---
+
+## 5. Business Recommendations
+
+1. **Improve delivery reliability** and reduce the 54.82% late-delivery rate.
+2. **Investigate high-risk regions**, especially Central Africa, East Africa and South Asia.
+3. **Evaluate shipping modes** using both late-order volume and late-delivery percentage.
+4. **Protect high-value markets**, especially Europe and LATAM.
+5. **Focus on high-profit categories** such as Fishing and products such as Field & Stream.
+6. **Strengthen Consumer-segment strategies**, since Consumers are the largest order share.
+7. **Investigate the Caguas revenue concentration** to understand whether it reflects real business activity or a data issue.
+
+---
+
+## 6. Tools Used
+
+**SQL Server** · **Power BI** · **DAX** · **Microsoft Excel**
+
+---
+
+**Author:** Riya Yadav | B.Tech, Production & Industrial Engineering, NIT Jamshedpur
