@@ -1,5 +1,13 @@
 # 📊 DataCo Supply Chain Analytics
 
+[![View Dashboards](https://img.shields.io/badge/📈_View-Power_BI_Dashboards-F2C811?style=for-the-badge)](DATACO%20SUPPLY%20CHAIN%20DATASET.pdf)
+[![Project Report](https://img.shields.io/badge/📄_Read-Project_Report-0A66C2?style=for-the-badge)](Project%20Report.md)
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-6B46C1?style=flat-square)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
 An end-to-end supply chain analytics project using **SQL Server** and **Power BI** to analyze revenue, profitability, delivery performance, customers, products and markets in the DataCo supply chain dataset.
 
 ---
@@ -104,3 +112,4 @@ DataCo-Supply-Chain-Analytics/
 ## 👩‍💻 Author
 
 **Riya Yadav** | B.Tech, Production & Industrial Engineering, NIT Jamshedpur
+[LinkedIn](https://www.linkedin.com/in/riya-yadav-2b5688378) · [GitHub](https://github.com/Riya-Yadav-Tech)
